@@ -1,7 +1,7 @@
 # FDFS - Movie Booking Web App
 
 ## Overview
-FDFS (First Day First Show) is a dynamic web application designed to simplify the movie booking experience. The project leverages JSP, Servlets, and PostgreSQL for backend operations, along with HTML, CSS, and JavaScript for an engaging and interactive user interface.
+FDFS (First Day First Show) is a dynamic web application designed to simplify the movie booking experience. The project leverages JSP, Servlets, and PostgreSQL for backend operations, along with HTML, CSS,Bootstrap and JavaScript for an engaging and interactive user interface.
 
 ---
 
@@ -20,7 +20,7 @@ FDFS (First Day First Show) is a dynamic web application designed to simplify th
 ---
 
 ## Tech Stack
-- **Frontend:** HTML, CSS, JavaScript
+- **Frontend:** HTML, CSS, JavaScript,Bootstrap
 - **Backend:** JSP, Servlets
 - **Database:** PostgreSQL
 - **Development Environment:** Eclipse IDE with Apache Tomcat server
@@ -66,13 +66,17 @@ FDFS (First Day First Show) is a dynamic web application designed to simplify th
 
 ## Screenshots
 ### Sign-In Page:
-![Sign-In Page](screenshots/signin.png)
+![Sign-In Page](Screenshots/SigninPage.png)
 
 ### Main Page:
-![Main Page](screenshots/main.png)
+![Main Page](Screenshots/Home.png)
+![Main Page](Screenshots/Home1.png)
 
 ### Seat Booking Page:
-![Seat Booking Page](screenshots/seat_booking.png)
+![Seat Booking Page](Screenshots/SeatBooking.png)
+
+### Footer for all pages
+![Footer](Screenshots/Footer.png)
 
 ---
 
