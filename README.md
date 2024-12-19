@@ -102,5 +102,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 For any questions or suggestions, feel free to reach out:
 - Email: naveentk1010@gmail.com
-- GitHub: [your-username](https://github.com/naveentk10)
+- GitHub: [naveentk10](https://github.com/naveentk10)
 
