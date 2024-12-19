@@ -1,0 +1,202 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100px;
+    font-size: 14px
+}
+.navig {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    /* Ensures all items are the same height */
+}
+
+.navig img {
+    width: 150px;
+}
+
+.navig input[type="text"] {
+    width: 100vh;
+    padding: 10px 10px 10px 40px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1.5px solid rgb(208, 208, 208);
+    background-image: url('movieicon.png');
+    background-position: 10px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+
+.navig ::placeholder {
+    opacity: 70%;
+}
+
+.navig select {
+    width: 100px;
+    padding: 10px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+main {
+    background-color: rgb(237, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.carousel-inner {
+    max-height: 500px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height:auto;
+    border-radius: 15px;
+}
+
+.utube {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.utube .para {
+    display: inline-block;
+    width: 500px;
+}
+
+.recommended {
+    padding: 10px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.recommended .movies {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+    margin-top: 2px;
+}
+
+.recommended .movies img {
+    border-radius: 12px;
+}
+.textdeco {
+    text-decoration: none; /* Removes the underline */
+    color: inherit; /* Optional: Keeps the text color consistent */
+}
+.imgcenter {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.imgcenter img {
+    border-radius: 10px;
+}
+
+.events {
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.events .event-img {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+
+}
+
+.events .event-img img {
+    border-radius: 10px;
+}
+
+.events h3 {
+    margin-left: 0px;
+}
+
+.sport {
+    margin-top: 40px;
+    margin-left: 34px;
+}
+
+.sport .sportpic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.sport .sportpic img {
+    border-radius: 12px;
+}
+
+.foot {
+    display: inline-block;
+    width: 100%;
+    background-color: #414148;
+    color: white;
+    padding: 20px;
+}
+
+.foot h3 {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.foot p,
+.foot ul {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.foot ul li {
+    margin: 8px 0;
+}
+
+.foot a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.foot a:hover {
+    color: #d4af37;
+}
+
+.foot img {
+    filter: invert(1);
+    transition: transform 0.3s ease;
+}
+
+.foot img:hover {
+    transform: scale(1.1);
+}
+
+.foot .copyright {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

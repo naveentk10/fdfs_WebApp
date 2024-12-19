@@ -1,0 +1,149 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100px;
+    font-size: 14px
+}
+.navig {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    /* Ensures all items are the same height */
+}
+
+.navig img {
+    width: 150px;
+}
+
+.navig input[type="text"] {
+    width: 100vh;
+    padding: 10px 10px 10px 40px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1.5px solid rgb(208, 208, 208);
+    background-image: url('movieicon.png');
+    background-position: 10px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+
+.navig ::placeholder {
+    opacity: 70%;
+}
+
+.navig select {
+    width: 100px;
+    padding: 10px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+main {
+    background-color: rgb(237, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.carousel-inner {
+    max-height: 500px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height:auto;
+    border-radius: 15px;
+}
+
+.server {
+	text-align : center;
+}
+.movies-section{
+    padding: 10px;
+}
+.movies-section .movies-images{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.movies-section .movies-images div{
+    flex-basis: 25%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.movies-section .movies-images div img{
+    border-radius: 10px;
+}
+.movies-section h1{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight:normal;
+}
+
+
+.foot {
+    display: inline-block;
+    width: 100%;
+    background-color: #414148;
+    color: white;
+    padding: 20px;
+}
+
+.foot h3 {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.foot p,
+.foot ul {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.foot ul li {
+    margin: 8px 0;
+}
+
+.foot a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.foot a:hover {
+    color: #d4af37;
+}
+
+.foot img {
+    filter: invert(1);
+    transition: transform 0.3s ease;
+}
+
+.foot img:hover {
+    transform: scale(1.1);
+}
+
+.foot .copyright {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
